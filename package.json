@@ -1,6 +1,6 @@
 {
   "name": "utils-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react utils, mostly hooks",
   "main": "./dist/index.js",
   "exports": {
@@ -20,7 +20,9 @@
     "./useScrollToTop": "./dist/useScrollToTop.js",
     "./useWebVitals": "./dist/useWebVitals.js",
     ".": {
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
